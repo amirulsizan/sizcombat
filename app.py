@@ -10,7 +10,7 @@ app.secret_key = 'your_secret_key_here'
 # --- Character Class (Same as before, but used by Flask) ---
 class Character:
     def __init__(self, name, max_hp, attack, defense):
-        self.name = name
+        self.name = name self
         self.max_hp = max_hp
         self.current_hp = max_hp
         self.attack = attack
